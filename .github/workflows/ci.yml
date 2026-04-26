@@ -21,4 +21,5 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run Tests (Fast Feedback)
-      run: pytest -x
+      run: pytest -n auto
+
